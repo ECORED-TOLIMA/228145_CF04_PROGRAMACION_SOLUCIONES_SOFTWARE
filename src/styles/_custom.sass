@@ -87,10 +87,21 @@ figcaption
     background-color: $white
   &-14
     border-left-color: #8CE6FE
+  &-15
+    background-color: #C0F6F2
+  &-16
+    background-color: #C9E8F7
+
+  &-17
+    background-color: #F2E4EF
+  &-17:hover
+     background-color: #5AF6EA !important
 
   //borde redondeado---------
   &-r8
     border-radius: 8px
+  &-r9
+    border-radius: 40px
   
   //Fondos ------------------
   &-01
@@ -154,7 +165,7 @@ figcaption
     //margin-inline: -6.2rem !important
 
   &-code1
-    //background-image: url(../assets/curso/temas/bg-code1.png)
+    background-image: url(../assets/curso/temas/bg-code1.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
@@ -168,7 +179,7 @@ figcaption
       padding: 20px !important
 
   &-code2
-    //background-image: url(../assets/curso/temas/bg-code2.png)
+    background-image: url(../assets/curso/temas/bg-code2.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
@@ -255,7 +266,7 @@ figcaption
   border-radius: 1rem
   position: relative
   &::before
-    //content: url('../assets/curso/temas/icon.svg')
+    content: url('../assets/curso/temas/icon.svg')
     position: absolute
     top: 5px
     left: 0
@@ -449,9 +460,9 @@ figcaption
 
 ///cajones de color
 .cajon.color1:before          //color de la pestaña del cajón
-  background-color: #9ECFFF
+  background-color: #68C6EA
 .cajon.color1
-  background-color: #DFEFFF //color del cajón
+  background-color: #C9E8F7 //color del cajón
 
 .cajon.color2:before
   background-color: #CF9EFF
@@ -943,7 +954,7 @@ figcaption
     border-top: 5px solid
     color: $table-header-color
     background-color: $table-header-bg-color
-    border-color: #FFEBBE !important
+    border-color: #FFEEBC !important
 
 //Tarjeta izquierda
 .tarjeta-img-izq 
@@ -1024,3 +1035,10 @@ figcaption
       color: #333
       font-size: 0.95rem
       line-height: 1.5
+
+// Titulo con barra vertical
+.etiqueta-barra
+  display: inline-block
+  background-color: #FFE2BC // color de fondo
+  border-left: 5px solid #7A4806 // Barra vertical
+  padding: 6px 16px
