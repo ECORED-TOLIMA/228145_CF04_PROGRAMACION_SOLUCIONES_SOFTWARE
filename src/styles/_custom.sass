@@ -130,19 +130,18 @@ figcaption
     margin-inline: -6.2rem !important
 
   &-06
-    //background-image: url(../assets/curso/temas/bg1.png)
+    background-image: url(../assets/curso/temas/bg2.png)
     background-repeat: no-repeat
-    background-size: 100% 100%
-    background-position: center
-    // Margen para escritorio
-    margin-inline: -6.2rem !important
+    background-size: 100% 100% 
     
-    // Ajuste CRÍTICO para móviles
+    margin-inline: -5.2rem !important
+    
+    
     @media (max-width: $bp-max-md)
-      margin-inline: -1.5rem !important // Reduce el margen negativo para que no se salga
-      background-size: cover
-      padding-left: 1rem !important
-      padding-right: 1rem !important
+      margin-inline: -1.5rem !important 
+      padding-left: 0 !important 
+      padding-right: 0 !important 
+      background-size: cover 
 
   &-07
     background-image: url(../assets/curso/temas/bg1.png)
@@ -247,8 +246,22 @@ figcaption
       background-image: none !important
       background-color: #120924 !important
       padding: 20px !important
+  
   &-code7
     background-image: url(../assets/curso/temas/bg-code7.svg)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 110px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
+  &-code8
+    background-image: url(../assets/curso/temas/bg-code8.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
@@ -260,8 +273,22 @@ figcaption
       background-image: none !important
       background-color: #120924 !important
       padding: 20px !important
-  &-code8
-    background-image: url(../assets/curso/temas/bg-code8.svg)
+  &-code9
+    background-image: url(../assets/curso/temas/bg-code9.svg)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 100px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
+
+  &-code10
+    background-image: url(../assets/curso/temas/bg-code10.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
@@ -1048,7 +1075,7 @@ figcaption
       height: auto
     
   &__body 
-    background-color: #9ECFFF
+    background-color: #68EAE0
     padding: 40px 30px 30px 30px 
     flex-grow: 1
 
@@ -1087,3 +1114,16 @@ figcaption
 
   .bloque-contenido
     padding: 1rem 1rem 1rem 1.5rem
+
+// Imágen inforgráfica
+.img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after,
+  background-color: #AE0000
+.img-infografica.color-primario .img-infografica__item__dot:after,
+  color: #ffffff
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  position: relative
+  width: 140%
+  padding-top: 140%
+.img-infografica__item__numero
+  position: absolute
+  left: 70%
