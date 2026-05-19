@@ -145,7 +145,7 @@ figcaption
       padding-right: 1rem !important
 
   &-07
-    //background-image: url(../assets/curso/temas/bg3.png)
+    background-image: url(../assets/curso/temas/bg1.png)
     background-repeat: no-repeat
     background-size: 100% 100% 
     
@@ -169,7 +169,7 @@ figcaption
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
     
@@ -183,7 +183,7 @@ figcaption
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
     
@@ -193,11 +193,11 @@ figcaption
       padding: 20px !important
 
   &-code3
-    //background-image: url(../assets/curso/temas/bg-code3.png)
+    background-image: url(../assets/curso/temas/bg-code3.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
     
@@ -207,11 +207,11 @@ figcaption
       padding: 20px !important
 
   &-code4
-    //background-image: url(../assets/curso/temas/bg-code4.png)
+    background-image: url(../assets/curso/temas/bg-code4.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
 
@@ -221,11 +221,11 @@ figcaption
       padding: 20px !important
 
   &-code5
-    //background-image: url(../assets/curso/temas/bg-code5.png)
+    background-image: url(../assets/curso/temas/bg-code5.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
 
@@ -235,11 +235,37 @@ figcaption
       padding: 20px !important
 
   &-code6
-    //background-image: url(../assets/curso/temas/bg-code6.png)
+    background-image: url(../assets/curso/temas/bg-code6.svg)
     background-repeat: no-repeat
     background-position: top center
     background-size: 100% 100% 
-    padding: 70px 40px 40px 40px !important  
+    padding: 100px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
+  &-code7
+    background-image: url(../assets/curso/temas/bg-code7.svg)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 100px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
+  &-code8
+    background-image: url(../assets/curso/temas/bg-code8.svg)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 100px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
 
@@ -365,12 +391,12 @@ figcaption
 .icono-img::before 
   content: ''
   position: absolute
-  //background-image: url('../assets/curso/temas/icon.svg')
+  background-image: url('../assets/curso/temas/icon2.svg')
   background-size: contain
   background-repeat: no-repeat
-  width: 15px
-  height: 14px
-  left: 0
+  width: 20px !important
+  height: 16px !important
+  left: -10px !important
   top: 50%
   transform: translateY(-50%)
 
@@ -1042,3 +1068,22 @@ figcaption
   background-color: #FFE2BC // color de fondo
   border-left: 5px solid #7A4806 // Barra vertical
   padding: 6px 16px
+
+// Bloque comparativo con barra de icono a la izquierda
+.tarjeta-comparativa
+  border-radius: 0px !important
+  margin-left: 0 !important
+  margin-right: 0 !important
+  overflow: hidden // Asegura que las esquinas del color turquesa no se salgan
+
+  .bloque-icono
+    background-color: #68EAE0 // Color turquesa de la barra lateral
+    width: 90px
+    min-height: 90px
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1rem
+
+  .bloque-contenido
+    padding: 1rem 1rem 1rem 1.5rem

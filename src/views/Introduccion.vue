@@ -34,8 +34,6 @@
         p A diferencia de los lenguajes de programación de propósito general como Java o Python, SQL está diseñado específicamente para expresar operaciones sobre datos de manera declarativa: 
         p.p-3.bg-13 El programador describe qué resultado desea obtener, y el motor de base de datos decide cómo obtenerlo de la manera más eficiente posible, basándose en estadísticas y planes de ejecución optimizados. 
 
-    //p.mt-4.text-center.p-1.bg-r8.bg-1 Esta separación entre el qué y el cómo es uno de los principios más poderosos del modelo relacional.
-
 
     .row.justify-content-center.mt-4
       .col-auto
