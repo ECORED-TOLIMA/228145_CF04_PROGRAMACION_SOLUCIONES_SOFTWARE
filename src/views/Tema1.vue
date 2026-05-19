@@ -147,8 +147,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code1.p-4.mb-4
           pre.language-sql
             code.text-white
@@ -204,8 +204,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code2.p-4.mb-4
           pre.language-sql
             code.text-white
@@ -258,8 +258,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code2.p-4.mb-4
           pre.language-sql
             code.text-white
@@ -372,8 +372,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code1.p-4.mb-4
           pre.language-sql
             code.text-white

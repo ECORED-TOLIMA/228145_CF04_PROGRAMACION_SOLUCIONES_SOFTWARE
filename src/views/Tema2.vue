@@ -56,8 +56,8 @@
         
         p.p-3.bg-base.bg-r8 DISTINCT también puede utilizarse dentro de las funciones de agregación, como COUNT(DISTINCT columna), para contar solo los valores únicos de una columna específica. Esta variante es muy útil para responder preguntas como: ¿cuántos clientes distintos realizaron pedidos este mes? o ¿cuántas categorías de productos diferentes se vendieron en la región?
         
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code4.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -111,8 +111,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code5.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -179,8 +179,8 @@
       
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code6.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -269,8 +269,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code7.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -329,8 +329,8 @@
     .row.justify-content-center.mt-4
       .col-lg-10
         p Cualquier condición que involucre una función de agregación (COUNT, SUM, AVG, MAX, MIN) debe ir en HAVING, no en WHERE. Las condiciones sobre columnas individuales (sin funciones de agregación) pueden ir en WHERE o en HAVING, pero es más eficiente ponerlas en WHERE porque así se reduce el número de filas antes de hacer el agrupamiento.
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code7.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -372,8 +372,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code8.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white

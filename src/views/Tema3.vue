@@ -70,8 +70,8 @@
       .col-lg-10
         p Son ampliamente utilizadas para normalizar datos antes de realizar comparaciones o búsquedas, evitando que diferencias en el uso de mayúsculas y minúsculas generen resultados incorrectos en los filtros o en las operaciones de JOIN. Así, si una columna de email puede contener valores como 'ANA@EMAIL.COM', 'ana@email.com' o 'Ana@Email.Com', una comparación directa con '=' fallaría en dos de los tres casos; utilizando LOWER en ambos lados de la comparación se garantiza el resultado correcto.
         
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code9.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -103,8 +103,8 @@
             .col-lg-12(data-aos="fade-down")
               .row.d-flex.align-items-center(data-aos="fade-right")
                 .col-lg-10
-                  .etiqueta-barra.mb-4
-                    h5.mb-0 Ejemplo:
+                  .etiqueta-barra.mb-3
+                    p.mb-0 Ejemplo:
                 .tarjeta.bg-code8.mb-4
                   pre.language-sql.w-100.mb-0
                     code.text-white
@@ -168,8 +168,8 @@
       .col-lg-10
         p Estas funciones son esenciales para trabajar con campos que almacenan información codificada en formato de cadena, como códigos de producto con estructura definida, referencias contables o identificadores compuestos.
 
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code7.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -202,8 +202,8 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .etiqueta-barra.mb-4
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code10.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -362,8 +362,8 @@
     .row.justify-content-center
       p.text-center La elección entre estas variantes debe hacerse conscientemente según el análisis que se desea realizar.
       .col-lg-10
-        .etiqueta-barra
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code10.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -390,8 +390,8 @@
 
     .row.justify-content-center
       .col-lg-10
-        .etiqueta-barra
-          h5.mb-0 Ejemplo:
+        .etiqueta-barra.mb-3
+          p.mb-0 Ejemplo:
         .tarjeta.bg-code10
           pre.language-sql.w-100.mb-0
             code.text-white
@@ -431,7 +431,7 @@
             alt=''
           )
 
-        .row.justify-content-center
+    .row.justify-content-center
       .col-lg-10
         .row.align-items-center
           .col-lg-12
