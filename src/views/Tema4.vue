@@ -400,7 +400,7 @@
         .col-10
           .titulo-sexto.color-acento-contenido.mb-3.mt-2
             h5 Tabla 8.
-            span #[i Tipos de JOIN en SQL: descripción, condiciones de uso y ejemplos]
+            span #[i Subconsultas vs JOINs: cuándo usar cada enfoque]
 
           .tabla-a.color-acento-contenido
             table

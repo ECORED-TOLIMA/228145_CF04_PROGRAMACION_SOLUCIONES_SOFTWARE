@@ -14,7 +14,7 @@
     //Tarjetas conectadas
     .tarjeta--container.row
       //Tarjeta izquierda
-      .col-md.tarjeta.bg-15.p-5
+      .col-md.tarjeta.bg-15.p-4.p-lg-5.mb-3.mb-md-0
         .row.justify-content-center.mb-4
           .col-6.d-flex.d-none.d-lg-block
             figure
@@ -25,7 +25,7 @@
         p.p-3.bg-13 Es el vocabulario común que permite a analistas, desarrolladores, administradores de bases de datos y profesionales de negocio comunicarse con las estructuras de datos de las organizaciones. 
 
       //Tarjeta derecha
-      .col-md.tarjeta.bg-16.p-5
+      .col-md.tarjeta.bg-16.p-4.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.d-flex.d-none.d-lg-block
             figure
