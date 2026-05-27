@@ -7,7 +7,7 @@
         span 5
       h1 Procedimientos almacenados en bases de datos
 
-    p Un procedimiento almacenado (stored procedure) es un conjunto de sentencias SQL precompiladas y almacenadas directamente en el servidor de base de datos, que pueden ejecutarse como una unidad cohesiva mediante una simple llamada con nombre y parámetros opcionales. A diferencia de las consultas SQL que se envían dinámicamente desde la aplicación al servidor cada vez que se ejecutan —con el costo asociado de parsing, compilación y optimización en cada ejecución— los procedimientos almacenados residen permanentemente en el servidor y solo necesitan ser creados una vez para quedar disponibles de manera indefinida para todas las aplicaciones que tengan acceso al servidor de base de datos.
+    p Un procedimiento almacenado (#[i stored procedure]) es un conjunto de sentencias SQL precompiladas y almacenadas directamente en el servidor de base de datos, que pueden ejecutarse como una unidad cohesiva mediante una simple llamada con nombre y parámetros opcionales. A diferencia de las consultas SQL que se envían dinámicamente desde la aplicación al servidor cada vez que se ejecutan —con el costo asociado de #[i parsing], compilación y optimización en cada ejecución— los procedimientos almacenados residen permanentemente en el servidor y solo necesitan ser creados una vez para quedar disponibles de manera indefinida para todas las aplicaciones que tengan acceso al servidor de base de datos.
 
     .row.align-items-center.justify-content-center.mt-4
       .col-lg-12        
@@ -33,7 +33,7 @@
                   img(src='@/assets/curso/tema5/2.svg', style='width: 150px')
               
               .col
-                p En el ecosistema del desarrollo de software empresarial colombiano, los procedimientos almacenados son ampliamente utilizados en sistemas de gestión de inventarios, facturación electrónica (especialmente con los requisitos de la DIAN), nómina y contabilidad, sistemas bancarios y sistemas de salud, donde la complejidad de las reglas de negocio, los requisitos de auditoría y la necesidad de garantizar la integridad de las transacciones hacen de los stored procedures una herramienta invaluable que complementa perfectamente el código de aplicación.
+                p En el ecosistema del desarrollo de software empresarial colombiano, los procedimientos almacenados son ampliamente utilizados en sistemas de gestión de inventarios, facturación electrónica (especialmente con los requisitos de la DIAN), nómina y contabilidad, sistemas bancarios y sistemas de salud, donde la complejidad de las reglas de negocio, los requisitos de auditoría y la necesidad de garantizar la integridad de las transacciones hacen de los #[i stored procedures] una herramienta invaluable que complementa perfectamente el código de aplicación.
 
     separador
     #t_5_1.titulo-segundo.color-acento-contenido
@@ -293,7 +293,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema5/7.svg', alt='Estructura lógica', style='width: 80px')
           
-          p.text-center Parámetros de entrada (IN)
+          p.text-center #[b Parámetros de entrada (IN)]
           p Permiten recibir valores desde el código llamador y son el tipo por defecto en SQL Server, MySQL y PostgreSQL.
 
       //Tarjeta 2
@@ -305,7 +305,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema5/8.svg', alt='Ideas generales', style='width: 80px')
           
-          p.text-center Parámetros de salida (OUT)
+          p.text-center #[b Parámetros de salida (OUT)]
           p Devuelven valores calculados al finalizar la ejecución, complementando el conjunto de resultados principal.
 
       //Tarjeta 3
@@ -317,7 +317,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema5/9.svg', alt='Ideas principales', style='width: 80px')
 
-          p.text-center Parámetros de entrada-salida (INOUT)
+          p.text-center #[b Parámetros de entrada-salida (INOUT)]
           p Reciben un valor inicial, lo modifican durante la ejecución y devuelven el valor actualizado al llamador.
       
       //Tarjeta 4
@@ -329,7 +329,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema5/10.svg', alt='Ideas principales', style='width: 80px')
 
-          p.text-center Parámetros con valor por defecto
+          p.text-center #[b Parámetros con valor por defecto]
           p Facilitan llamadas más simples al usar un valor predefinido cuando el parámetro no es proporcionado explícitamente.
 
     .titulo-tres.mt-5: h3 Gestión del ciclo de vida de los procedimientos almacenados
@@ -352,49 +352,49 @@
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/12.svg', alt='').img100.m-auto
-                  p.mb-0 Creación. Definición inicial del procedimiento dentro del esquema de la base de datos, donde se establece su nombre, parámetros, lógica interna y propósito funcional.
+                  p.mb-0 #[b Creación.] Definición inicial del procedimiento dentro del esquema de la base de datos, donde se establece su nombre, parámetros, lógica interna y propósito funcional.
 
                 //Tarjeta 2     
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/13.svg', alt='').img100.m-auto
-                  p.mb-0 Modificación. Actualización de la lógica interna del procedimiento para corregir errores, optimizar el rendimiento o incorporar nuevas reglas de negocio.
+                  p.mb-0 #[b Modificación.] Actualización de la lógica interna del procedimiento para corregir errores, optimizar el rendimiento o incorporar nuevas reglas de negocio.
 
                 //Tarjeta 3
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/14.svg', alt='').img100.m-auto
-                  p.mb-0 Eliminación. Borrado definitivo del procedimiento cuando deja de ser necesario, ha quedado obsoleto o es reemplazado por una nueva implementación.
+                  p.mb-0 #[b Eliminación.] Borrado definitivo del procedimiento cuando deja de ser necesario, ha quedado obsoleto o es reemplazado por una nueva implementación.
 
                 //Tarjeta 4
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/15.svg', alt='').img100.m-auto
-                  p.mb-0 Ejecución. Invocación del procedimiento desde aplicaciones, servicios o scripts SQL, proporcionando los parámetros requeridos para obtener el resultado esperado.
+                  p.mb-0 #[b Ejecución.] Invocación del procedimiento desde aplicaciones, servicios o scripts SQL, proporcionando los parámetros requeridos para obtener el resultado esperado.
     
                 //Tarjeta 5
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/16.svg', alt='').img100.m-auto
-                  p.mb-0 Listado. Consulta del catálogo del sistema para identificar los procedimientos existentes, verificar su disponibilidad y facilitar tareas de administración.
+                  p.mb-0 #[b Listado.] Consulta del catálogo del sistema para identificar los procedimientos existentes, verificar su disponibilidad y facilitar tareas de administración.
     
                 //Tarjeta 6
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/17.svg', alt='').img100.m-auto
-                  p.mb-0 Visualización del código fuente. Inspección del código SQL que define el procedimiento, útil para análisis, depuración, auditoría o mantenimiento evolutivo.
+                  p.mb-0 #[b Visualización del código fuente.] Inspección del código SQL que define el procedimiento, útil para análisis, depuración, auditoría o mantenimiento evolutivo.
                 
                 //Tarjeta 7
                 .tarjeta.bg-13.p-4
                   .row.justify-content-center.mb-3
                     .col-5
                       img(src='@/assets/curso/tema5/18.svg', alt='').img100.m-auto
-                  p.mb-0 Consulta de parámetros. Revisión de los parámetros definidos en el procedimiento, incluyendo sus tipos de datos, valores por defecto y direcciones (entrada, salida o entrada-salida).
+                  p.mb-0 #[b Consulta de parámetros.] Revisión de los parámetros definidos en el procedimiento, incluyendo sus tipos de datos, valores por defecto y direcciones (entrada, salida o entrada-salida).
     
     .titulo-tres.mt-5: h3 Mejores prácticas para el desarrollo de procedimientos almacenados
 

@@ -37,7 +37,7 @@
             PasosA.color-primario(tipo="n")
               .row
                 .col-lg-6.text-start
-                  p Según su ubicación dentro de la sentencia SQL
+                  p #[b Según su ubicación dentro de la sentencia SQL]
                   p Pueden aparecer en la cláusula WHERE, donde se utilizan para filtrar resultados (las más habituales); en la cláusula FROM, funcionando como tablas derivadas que permiten construir conjuntos de datos intermedios; o en la lista del SELECT, donde actúan como subconsultas escalares que aportan valores calculados al resultado final.
 
                 .col-6
@@ -49,12 +49,12 @@
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/tema4/3.png', alt='').img125
                 .col-lg-6.text-start
-                  p De acuerdo con el tipo de resultado que producen
+                  p #[b De acuerdo con el tipo de resultado que producen]
                   p Se distinguen subconsultas escalares, que devuelven un único valor; subconsultas de fila, que retornan una fila completa con múltiples columnas; y subconsultas de tabla, que producen conjuntos de múltiples filas y columnas que pueden ser utilizados por la consulta principal.
 
               .row
                 .col-lg-6.text-start
-                  p Según su dependencia de la consulta exterior
+                  p #[b Según su dependencia de la consulta exterior]
                   p Pueden ser no correlacionadas, cuando se evalúan una sola vez y su resultado se reutiliza, lo que suele ofrecer un mejor rendimiento; o correlacionadas, cuando dependen de valores de la consulta exterior y deben reevaluarse para cada fila, lo que incrementa su costo computacional, pero permite expresar condiciones más complejas.
 
                 .col-6
@@ -204,7 +204,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 6.
-              span #[i Operadores para subconsultas: semántica, uso y equivalencias]
+              span Operadores para subconsultas: semántica, uso y equivalencias
 
             .tabla-a.color-acento-contenido
               table
@@ -276,7 +276,7 @@
 
         .etiqueta-barra.mb-3
           p.mb-0 Ejemplo:
-        .tarjeta.bg-code6.mb-4
+        .tarjeta.bg-code11.mb-4
           pre.language-sql.w-100.mb-0
             code.text-white
               | -- INNER JOIN: solo pedidos que tienen cliente registrado
@@ -358,7 +358,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-2
               h5 Tabla 7.
-              span #[i Tipos de JOIN en SQL: descripción, condiciones de uso y ejemplos]
+              span Tipos de JOIN en SQL: descripción, condiciones de uso y ejemplos
 
             .tabla-a.color-acento-contenido
               table
@@ -400,7 +400,7 @@
         .col-10
           .titulo-sexto.color-acento-contenido.mb-3.mt-2
             h5 Tabla 8.
-            span #[i Subconsultas vs JOINs: cuándo usar cada enfoque]
+            span Subconsultas vs JOINs: cuándo usar cada enfoque
 
           .tabla-a.color-acento-contenido
             table
@@ -450,7 +450,7 @@
       .col-lg-12
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/J_r_bls2Mc0?si=bdxRE0U702WZwjSb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

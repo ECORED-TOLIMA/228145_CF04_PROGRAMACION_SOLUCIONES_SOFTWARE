@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El principio que guía el uso de funciones SQL en el servidor es el de reducir el tráfico de red entre la aplicación y la base de datos. En lugar de recuperar millones de registros a la aplicación para filtrar, transformar y calcular en memoria, es mucho más eficiente expresar esas operaciones en SQL y dejar que el motor de base de datos las ejecute donde están los datos, devolviendo solo el resultado final. Este principio, conocido como compute-close-to-data, es especialmente relevante en sistemas distribuidos y aplicaciones de big data, pero aplica igualmente en sistemas transaccionales convencionales.
+        p.mb-0 El principio que guía el uso de funciones SQL en el servidor es el de reducir el tráfico de red entre la aplicación y la base de datos. En lugar de recuperar millones de registros a la aplicación para filtrar, transformar y calcular en memoria, es mucho más eficiente expresar esas operaciones en SQL y dejar que el motor de base de datos las ejecute donde están los datos, devolviendo solo el resultado final. Este principio, conocido como #[i compute-close-to-data], es especialmente relevante en sistemas distribuidos y aplicaciones de big data, pero aplica igualmente en sistemas transaccionales convencionales.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -53,7 +53,7 @@
             img(src="@/assets/curso/tema3/3.png", alt="")
 
           .tarjeta-diagrama__body
-            p LOWER
+            p #[b LOWER]
             p Convierte todos los caracteres alfabéticos de una cadena de texto a letras minúsculas, manteniendo sin cambios números, espacios y caracteres especiales. Esta función es útil para estandarizar datos y realizar comparaciones sin sensibilidad a mayúsculas o minúsculas.
 
       // Tarjeta 2
@@ -63,7 +63,7 @@
             img(src="@/assets/curso/tema3/4.png", alt="")
 
           .tarjeta-diagrama__body
-            p UPPER
+            p #[b UPPER]
             p Transforma todos los caracteres alfabéticos de una cadena a letras mayúsculas, conservando intactos los demás símbolos y números. Se utiliza frecuentemente para normalizar información, generar formatos consistentes y facilitar búsquedas o validaciones de texto. 
 
     .row.justify-content-center.mt-4
@@ -141,7 +141,7 @@
               figure.m-0
                 img(src='@/assets/curso/tema3/5.svg', style='width: 60px')
           .col.bloque-contenido
-            p.mb-1 SUBSTRING
+            p.mb-1 #[b SUBSTRING]
             p.mb-0 Extrae una subcadena a partir de una posición de inicio y con una longitud determinada. 
 
         //- Tarjeta para LEFT
@@ -151,7 +151,7 @@
               figure.m-0
                 img(src='@/assets/curso/tema3/6.svg', style='width: 60px')
           .col.bloque-contenido
-            p.mb-1 LEFT
+            p.mb-1 #[b LEFT]
             p.mb-0 Extrae los primeros N caracteres desde el extremo izquierdo de la cadena. 
 
         //- Tarjeta para RIGHT
@@ -161,7 +161,7 @@
               figure.m-0
                 img(src='@/assets/curso/tema3/7.svg', style='width: 60px')
           .col.bloque-contenido
-            p.mb-1 RIGHT
+            p.mb-1 #[b RIGHT]
             p.mb-0 Extrae los últimos N caracteres desde el extremo derecho. 
 
     .row.justify-content-center.mt-4
@@ -237,7 +237,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 4.
-              span #[i Funciones de cadena SQL: referencia rápida de sintaxis y ejemplos]
+              span Funciones de cadena SQL: referencia rápida de sintaxis y ejemplos
 
             .tabla-a.color-acento-contenido
               table
@@ -437,7 +437,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 5.
-              span #[i Funciones de agregación SQL: referencia completa de comportamiento]
+              span Funciones de agregación SQL: referencia completa de comportamiento
 
             .tabla-a.color-acento-contenido
               table

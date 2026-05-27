@@ -17,7 +17,7 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
-              p El DML es el lenguaje del día a día de cualquier aplicación de software que trabaje con bases de datos. Cada vez que un usuario registra una venta en un sistema de punto de venta, actualiza su perfil en una red social, cancela un pedido en una tienda en línea o genera un reporte de ventas del mes anterior para la gerencia, está —de manera transparente, sin ser consciente de ello— ejecutando sentencias DML contra la base de datos subyacente. Para el desarrollador de software, comprender profundamente el DML no es solo una cuestión técnica: es comprender cómo el software que construye interactúa con los datos del negocio, qué impacto tienen sus sentencias sobre el rendimiento del sistema y cómo garantizar la integridad y consistencia de la información en todo momento, incluso cuando múltiples usuarios acceden simultáneamente a los mismos datos.
+              p El DML es el lenguaje del día a día de cualquier aplicación de #[i software] que trabaje con bases de datos. Cada vez que un usuario registra una venta en un sistema de punto de venta, actualiza su perfil en una red social, cancela un pedido en una tienda en línea o genera un reporte de ventas del mes anterior para la gerencia, está —de manera transparente, sin ser consciente de ello— ejecutando sentencias DML contra la base de datos subyacente. Para el desarrollador de #[i software], comprender profundamente el DML no es solo una cuestión técnica: es comprender cómo el #[i software] que construye interactúa con los datos del negocio, qué impacto tienen sus sentencias sobre el rendimiento del sistema y cómo garantizar la integridad y consistencia de la información en todo momento, incluso cuando múltiples usuarios acceden simultáneamente a los mismos datos.
 
       p.mt-4.text-center El lenguaje SQL, en su conjunto, se divide en varios sublenguajes especializados según el tipo de operación que realizan:
 
@@ -32,7 +32,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema1/2.svg', alt='Estructura lógica', style='width: 80px')
           
-          p.text-center DDL (Data Definition Language)
+          p.text-center #[b DDL (Data Definition Language)]
           p Se ocupa de definir y modificar la estructura del esquema de la base de datos. 
 
       //Tarjeta 2
@@ -44,7 +44,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema1/3.svg', alt='Ideas generales', style='width: 80px')
           
-          p.text-center DCL (Data Control Language)
+          p.text-center #[b DCL (Data Control Language)]
           p Gestiona los permisos de acceso y seguridad. 
 
       //Tarjeta 3
@@ -56,7 +56,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema1/4.svg', alt='Ideas principales', style='width: 80px')
 
-          p.text-center TCL (Transaction Control Language)
+          p.text-center #[b TCL (Transaction Control Language)]
           p Controla las transacciones mediante los comandos COMMIT, ROLLBACK y SAVEPOINT. 
       
       //Tarjeta 4
@@ -68,7 +68,7 @@
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/tema1/5.svg', alt='Ideas principales', style='width: 80px')
 
-          p.text-center DML (Data Manipulation Language)
+          p.text-center #[b DML (Data Manipulation Language)]
           p Objeto de estudio de este componente, se ocupa de todas las operaciones sobre los datos.
 
 
@@ -254,7 +254,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es importante comprender la diferencia entre DELETE, TRUNCATE TABLE y DROP TABLE, tres operaciones que pueden confundirse, pero tienen consecuencias muy diferentes. DELETE elimina los registros que cumplen la condición (o todos si no hay WHERE), activa los triggers definidos en la tabla, puede revertirse dentro de una transacción y registra cada eliminación en el log de transacciones. TRUNCATE TABLE elimina todos los registros de una tabla de manera mucho más eficiente (sin registrar cada fila en el log), pero no puede usarse con condiciones, no activa triggers y en la mayoría de los SMBD no puede revertirse fácilmente. DROP TABLE elimina la tabla completa junto con todos sus datos, índices y definiciones.
+        p.mb-0 Es importante comprender la diferencia entre DELETE, TRUNCATE TABLE y DROP TABLE, tres operaciones que pueden confundirse, pero tienen consecuencias muy diferentes. DELETE elimina los registros que cumplen la condición (o todos si no hay WHERE), activa los #[i triggers] definidos en la tabla, puede revertirse dentro de una transacción y registra cada eliminación en el log de transacciones. TRUNCATE TABLE elimina todos los registros de una tabla de manera mucho más eficiente (sin registrar cada fila en el log), pero no puede usarse con condiciones, no activa #[i triggers] y en la mayoría de los SMBD no puede revertirse fácilmente. DROP TABLE elimina la tabla completa junto con todos sus datos, índices y definiciones.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -305,7 +305,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 1.
-              span #[i Comandos de modificación DML: sintaxis, efecto y precauciones esenciales]
+              span Comandos de modificación DML: sintaxis, efecto y precauciones esenciales
 
             .tabla-a.color-acento-contenido
               table
@@ -430,8 +430,8 @@
         .row.align-items-center
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
-              h5 Tabla 1.
-              span #[i Ejemplos progresivos del comando SELECT — de básico a avanzado]
+              h5 Tabla 2.
+              span Ejemplos progresivos del comando SELECT — de básico a avanzado
 
             .tabla-a.color-acento-contenido
               table

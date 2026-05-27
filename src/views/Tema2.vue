@@ -167,15 +167,15 @@
             ul.lista-ul--color
               li.d-flex.align-items-start
                 span.icono-img
-                p.mb-0 IN. Verifica si un valor pertenece a una lista de valores predefinidos o al resultado de una subconsulta.
+                p.mb-0 #[b IN.] Verifica si un valor pertenece a una lista de valores predefinidos o al resultado de una subconsulta.
 
               li.d-flex.align-items-start
                 span.icono-img
-                p.mb-0 BETWEEN. Verifica si un valor se encuentra dentro de un rango inclusivo.
+                p.mb-0 #[b BETWEEN.] Verifica si un valor se encuentra dentro de un rango inclusivo.
 
               li.d-flex.align-items-start
                 span.icono-img
-                p.mb-0 LIKE. Permite búsquedas por patrones de texto utilizando los metacaracteres % (cero o más caracteres) y _ (exactamente un carácter).
+                p.mb-0 #[b LIKE.] Permite búsquedas por patrones de texto utilizando los metacaracteres % (cero o más caracteres) y _ (exactamente un carácter).
       
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -313,7 +313,7 @@
               figure.m-0
                 img(src='@/assets/curso/tema2/10.svg', style='width: 60px')
           .col.bloque-contenido
-            p.mb-1 WHERE
+            p.mb-1 #[b WHERE]
             p.mb-0 Filtra filas (registros individuales, antes de agrupar).
 
         //- Tarjeta para HAVING
@@ -323,7 +323,7 @@
               figure.m-0
                 img(src='@/assets/curso/tema2/11.svg', style='width: 60px')
           .col.bloque-contenido
-            p.mb-1 HAVING
+            p.mb-1 #[b HAVING]
             p.mb-0 Filtra grupos (resultados de la agregación, después de agrupar).
 
     .row.justify-content-center.mt-4
@@ -403,7 +403,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 3.
-              span #[i  Cláusulas del comando SELECT: función, orden de procesamiento y errores comunes]
+              span Cláusulas del comando SELECT: función, orden de procesamiento y errores comunes
 
             .tabla-a.color-acento-contenido
               table

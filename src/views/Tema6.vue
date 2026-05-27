@@ -103,11 +103,11 @@
 
     separador
     #t_6_2.titulo-segundo.color-acento-contenido.mb-0
-      h2 6.2 Tipos de bases de datos en entornos cloud
+      h2 6.2 Tipos de bases de datos en entornos #[i cloud]
 
     .row.bg-07.p-md-5.mt-0
       .row.align-items-center.justify-content-center.p-3
-        p Los entornos cloud han ampliado significativamente el abanico de tecnologías de bases de datos disponibles para las organizaciones. Más allá del modelo relacional tradicional, hoy es posible elegir entre múltiples tipos de bases de datos optimizadas para diferentes patrones de acceso, volúmenes de información y requisitos de escalabilidad, rendimiento y consistencia, todo bajo el modelo de servicios gestionados.
+        p Los entornos #[i cloud] han ampliado significativamente el abanico de tecnologías de bases de datos disponibles para las organizaciones. Más allá del modelo relacional tradicional, hoy es posible elegir entre múltiples tipos de bases de datos optimizadas para diferentes patrones de acceso, volúmenes de información y requisitos de escalabilidad, rendimiento y consistencia, todo bajo el modelo de servicios gestionados.
 
         .col-lg-10
           .row.align-items-center.justify-content-center
@@ -211,7 +211,7 @@
         p Para finalizar, se presenta la siguiente tabla, cuyo objetivo es integrar de forma sintética los modelos de bases de datos utilizados en entornos cloud, destacando sus fortalezas principales, las limitaciones más relevantes y los escenarios de uso para los que resultan más adecuados. Esta visión comparativa permite identificar rápidamente el modelo que mejor se ajusta a las necesidades técnicas y de negocio de un sistema de información.
         .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Tabla 9
-          span #[i Síntesis de modelos de bases de datos en la nube y criterios de uso]
+          span Síntesis de modelos de bases de datos en la nube y criterios de uso
 
         .tabla-a.color-acento-contenido
           table
