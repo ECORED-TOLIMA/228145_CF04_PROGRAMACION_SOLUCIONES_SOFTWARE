@@ -34,22 +34,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'CREATE TABLE.',
+              texto: 'CREATE TABLE',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'GRANT.',
+              texto: 'GRANT',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'SELECT.',
+              texto: 'SELECT',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'COMMIT.',
+              texto: 'COMMIT',
               esCorrecta: false,
             },
           ],
@@ -97,22 +97,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY.',
+              texto: 'SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.',
+              texto: 'FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'WHERE → FROM → SELECT → GROUP BY → HAVING → ORDER BY.',
+              texto: 'WHERE → FROM → SELECT → GROUP BY → HAVING → ORDER BY',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'FROM → SELECT → WHERE → HAVING → GROUP BY → ORDER BY.',
+              texto: 'FROM → SELECT → WHERE → HAVING → GROUP BY → ORDER BY',
               esCorrecta: false,
             },
           ],
@@ -161,22 +161,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: "'CF0'.",
+              texto: "'CF0'",
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: "'202'.",
+              texto: "'202'",
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: "'SQL'.",
+              texto: "'SQL'",
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: "'-20'.",
+              texto: "'-20'",
               esCorrecta: false,
             },
           ],
@@ -428,22 +428,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'ANY.',
+              texto: 'ANY',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'SOME.',
+              texto: 'SOME',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'ALL.',
+              texto: 'ALL',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'EXISTS.',
+              texto: 'EXISTS',
               esCorrecta: false,
             },
           ],

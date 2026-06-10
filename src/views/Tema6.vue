@@ -109,7 +109,7 @@
       .row.align-items-center.justify-content-center.p-3
         p Los entornos #[i cloud] han ampliado significativamente el abanico de tecnologías de bases de datos disponibles para las organizaciones. Más allá del modelo relacional tradicional, hoy es posible elegir entre múltiples tipos de bases de datos optimizadas para diferentes patrones de acceso, volúmenes de información y requisitos de escalabilidad, rendimiento y consistencia, todo bajo el modelo de servicios gestionados.
 
-        .col-lg-10
+        .col-lg-12
           .row.align-items-center.justify-content-center
             .col-lg-12(data-aos="fade-down")
               .row.d-flex.align-items-center(data-aos="fade-right")

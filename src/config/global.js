@@ -78,7 +78,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Funciones de acdena',
+            titulo: 'Funciones de cadena',
             hash: 't_3_1',
           },
           {

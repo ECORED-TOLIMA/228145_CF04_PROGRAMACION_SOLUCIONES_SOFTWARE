@@ -49,7 +49,7 @@
         p.mb-0 Este componente formativo aborda el lenguaje SQL desde su dimensión más operativa y práctica: el lenguaje de manipulación de datos (DML), que comprende todas las operaciones para insertar, modificar, eliminar y consultar datos en una base de datos. A lo largo de seis temas estructurados de manera progresiva, se transitará desde los comandos fundamentales de inserción, modificación y eliminación, pasando por la sintaxis completa del comando SELECT con todas sus cláusulas, las funciones de cadena y agregación, las subconsultas, los diferentes tipos de JOIN para combinar tablas, los procedimientos almacenados, hasta las soluciones modernas de almacenamiento en la nube con sus múltiples paradigmas de bases de datos.
 
     .row.justify-content-center
-      .col-10
+      .col-12
         p.mt-4 Cada tema incluye ejemplos de código SQL reales, comentados y progresivos en complejidad, tablas de referencia rápida con la sintaxis de los comandos más utilizados, así como comparativas que facilitan la comprensión de las diferencias entre las distintas opciones disponibles. El aprendizaje de SQL es eminentemente práctico: los conceptos solo se consolidan completamente cuando se escriben y ejecutan sentencias reales contra bases de datos reales, verificando en tiempo real el comportamiento de cada sentencia. 
 
 </template>

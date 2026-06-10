@@ -489,7 +489,7 @@
                     td.text-start HAVING.
                   tr(style="background-color: #F3F9FF")
                     td.text-start 10 - Completo.
-                    td.text-start SELECT+FROM+JOIN+WHERE+GROUP BY+HAVING+ORDER BY.
+                    td.text-start SELECT + FROM + JOIN + WHERE + GROUP BY + HAVING + ORDER BY.
                     td.text-start Reporte multidimensional completo.
                     td.text-start Todo combinado.
 
